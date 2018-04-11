@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/man/man",
+    "pages/index/index",
+    "pages/man/seven",
+    "pages/signup/signup",
+    "pages/env/env",
+    "pages/env/seven"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/man/man",
+        "text": "健康",
+        "iconPath": "./icon/health.png",
+        "selectedIconPath": "./icon/health_active.png"
+      },
+      {
+        "pagePath": "pages/env/env",
+        "text": "环境",
+        "iconPath": "./icon/env.png",
+        "selectedIconPath": "./icon/env_active.png"
+      }
+    ],
+    "color": "#ffffff",
+    "selectedColor": "#eb3939"
+  }
+}

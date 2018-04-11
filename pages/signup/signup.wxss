@@ -1,0 +1,19 @@
+/* pages/signup/signup.wxss */
+form{
+  width: 600rpx;
+}
+label{
+  font-size: 12px;
+}
+
+#signup{
+  width: 400rpx;
+  font-size: 14px;
+  margin-top: 50rpx;
+}
+
+#signup{
+  border: 1px solid linear-gradient(135deg, #f49292, #eb3939);
+  background: linear-gradient(135deg, #f49292, #eb3939);
+  color: #fff;
+}

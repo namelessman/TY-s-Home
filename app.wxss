@@ -1,0 +1,83 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* 主题色 */
+/* #eb3939 */
+input{
+  border: 1rpx solid #eee;
+  border-radius: 6rpx;
+}
+
+/* 查看一周趋势 */
+.seven{
+  position: absolute;
+  bottom: 50px;
+  border: none;
+  outline: none;
+  font-size: 36rpx;
+  background: #eb3939;
+  color: #fff;
+  box-shadow: 2px 2px 8px rgba(235, 57, 57, 0.5);
+}
+/* 返回 */
+.return{
+  position: absolute;
+  bottom: 40px;
+  border: none;
+  outline: none;
+  font-size: 36rpx;
+  background: #eb3939;
+  color: #fff;
+  box-shadow: 2px 2px 8px rgba(235, 57, 57, 0.5);
+  padding: 0 20px;
+}
+.bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+   /* filter: blur(1px);  */
+  z-index: -1;
+}
+.gas{
+  color: #eb3939;
+  font-weight: bold;
+  position: absolute;
+  top: 100rpx;
+}
+.circle{
+  width: 600rpx;
+  height: 600rpx;
+  font-size: 50rpx;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background: rgba(255, 255, 255, .5);
+  color: #333;
+}
+.circle::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  bottom: -3px;
+  right: -3px;
+  border-radius: 50%;
+  z-index: -1;
+  /* background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); */
+  box-shadow: 0 0 10px #eee;
+}
