@@ -9,7 +9,7 @@
         </view>
         <view>
           血氧{{bloodOxygen}}%
-          <text class='warning' wx:if="{{bloodOxygen>94}}">血氧过高</text></view>
+          <text class='warning' wx:if="{{bloodOxygen<94}}">血氧过低</text></view>
       </view>
 
       <button class='seven' bindtap='goSeven'>查看一周趋势</button>
