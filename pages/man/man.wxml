@@ -3,13 +3,14 @@
       <view class='gas' wx:if="{{isGas}}">警告:可燃气体状态异常！</view>
       <view class='circle'>
         <view>
-          心率{{hearRate}}
+          心率{{heartRate}}
           <text class='warning' wx:if="{{heartRate>100}}">心率过高</text>
           <text class='warning' wx:if="{{heartRate<60}}">心率过低</text>
         </view>
         <view>
           血氧{{bloodOxygen}}%
-          <text class='warning' wx:if="{{bloodOxygen<94}}">血氧过低</text></view>
+          <text class='warning' wx:if="{{bloodOxygen<94}}">血氧过低</text>
+        </view>
       </view>
 
       <button class='seven' bindtap='goSeven'>查看一周趋势</button>

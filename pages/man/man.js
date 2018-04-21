@@ -3,7 +3,7 @@ import { getEnvNow } from '../../api/index.js';
 
 Page({
   data: {
-    hearRate: 0,
+    heartRate: 0,
     bloodOxygen: 0,
     isGas: false
   },
@@ -11,7 +11,7 @@ Page({
     getHealthNow((res) => {
     if(res.status === 0) {
       this.setData({
-        hearRate: Math.round(res.data.heartRate),
+        heartRate: Math.round(res.data.heartRate),
         bloodOxygen: Math.round(res.data.bloodOxygen)
       })
     } else if (res.status === 10) {
