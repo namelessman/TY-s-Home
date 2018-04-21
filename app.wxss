@@ -11,10 +11,17 @@
 /* 主题色 */
 /* #eb3939 */
 input{
-  border: 1rpx solid #eee;
+  border: 1rpx solid #eeeeee;
   border-radius: 6rpx;
 }
-
+.warning{
+  color: #ffffff;
+  font-size: 24rpx;
+  background: #eb3939;
+  padding: 5rpx 10rpx;
+  border-radius: 10rpx;
+  margin-left: 10rpx;
+}
 /* 查看一周趋势 */
 .seven{
   position: absolute;
