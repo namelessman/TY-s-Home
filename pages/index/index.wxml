@@ -3,7 +3,7 @@
   <form>
     <label>
       <text>用户名</text>
-      <input type='text' placeholder='请输入用户名' focus='true' bindinput='inputUserName'/>
+      <input type='text' placeholder='请输入用户名' focus='true' bindinput='inputUserName' placeholder-style="color:#ffffff;"/>
     </label>
     <!-- <label>
       <text>手机号</text>
@@ -11,9 +11,9 @@
     </label> -->
     <label>
       <text>密码</text>
-      <input password='true' placeholder='请输入密码' bindinput='inputPwd'/>
+      <input password='true' placeholder='请输入密码' bindinput='inputPwd' placeholder-style="color: #ffffff;"/>
     </label>
     <button id='login' bindtap='login'> 登录 </button>
-    <button id='signup' bindtap='signup'> 注册 </button>
+    <text id='signup' bindtap='signup'> 注册 </text>
   </form>
 </view>

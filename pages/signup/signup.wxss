@@ -1,19 +1,33 @@
 /* pages/signup/signup.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #f49292, #eb3939, #e8a333);
+  color: #ffffff;
+}
 form{
   width: 600rpx;
 }
 label{
-  font-size: 12px;
+  font-size: 36rpx;
 }
-
+input{
+  font-size: 24rpx;
+  margin:  10rpx 0 30rpx 0;
+  padding-left: 10rpx;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
 #signup{
   width: 400rpx;
-  font-size: 14px;
+  font-size: 36rpx;
   margin-top: 50rpx;
+  margin: 50rpx auto 0;
 }
 
 #signup{
   border: 1px solid linear-gradient(135deg, #f49292, #eb3939);
-  background: linear-gradient(135deg, #f49292, #eb3939);
-  color: #fff;
+  background: #ffffff;
+  color: #eb3939;
+  opacity: .8;
 }
